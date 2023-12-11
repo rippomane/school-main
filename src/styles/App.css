@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/gang-of-three');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* Тело */
+body{
+    max-width: 100%;
+    height: auto;
+}
+/* Хедер контейнер */
+.header__container{
+    width: 100%;
+    height: 100px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+}
+/* Меню */
+nav{
+    margin-top: 43px;
+}
+/* all a */
+a{
+    text-decoration: none;
+}
+/* header a */
+.a{
+    color: #ffffff;
+    font-family: 'Gasoek One', sans-serif;
+}
+/* header a */
+.a2{
+    margin-left: 29px;
+    color: #ffffff;
+    font-family: 'Gasoek One', sans-serif;
+}
+.logo__left__container{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 191px;
+    height: 73px;
+}
+.logo__img{
+    width: 75px;
+    height: 73px;
+}
+.logo__text{
+    margin-top: 29px;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    font-family: 'Gang of Three', sans-serif;
+}
+.logo__right__container{
+    margin-top: 36px;
+    margin-right: 100px;
+    display: flex;
+    width: 94px;
+    height: 33px;
+}
+/* header ico 2 */
+.hi2{
+    margin-left: 30px;
+}
+/* Главная страница */
+.main__page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 839px;
+}
+.main__pic__container{
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 839px;
+}
+/* Контейнер с переходом на трейлер для кнопки и текста */
+.play__trailer__container{
+    padding-left: 48px;
+    width: 281px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+}
+/* Круг */
+.ptc__btn{
+    width: 89px;
+    height: 89px;
+    background-color: #111111;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Треугольник в кругу */
+.ptc__btn__triangle{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 29px solid white;
+    transform: rotate(90deg);
+}
+.ptc__text{
+    margin-left: 15px;
+    font-size: 28px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #FFFFFF;
+}
+.ptdc__container{
+    padding-top: 688px;
+    width: 100%;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+}
+.ptdc__describe{
+    margin-right: 96px;
+    width: 615px;
+    height: 74px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Gilroy-Light', sans-serif;
+    text-transform: uppercase;
+}
+/* Секция сериалы */
+.series{
+    width: 100%;
+    height: 1496px;
+    background-color: #111111;
+}
+.title__watching__now__container{
+    padding-left: 71px;
+    width: 246px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.twnc__title{
+    font-size: 32px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #FFFFFF;
+}
+/* Контейнер с обложкой и описанием сериала */
+.series__container{
+    margin-top: 30px;
+    width: 100%;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.sc_card{
+    width: 246px;
+    height: 401px;
+}
+.sc__text{
+    margin-top: 12px;
+    color: #808080;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s;
+}
+/* Изменение текста при наведении */
+.sc__text:hover{
+    color: #FFFFFF;
+}
+/* Заголовок */
+.title__we__recommend__container{
+    padding-left: 71px;
+    width: 269px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Подвал */
+footer{
+    width: 100%;
+    height: 727px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+/* Section footer */
+.sf{
+    margin-top: 100px;
+    width: 100%;
+    height: 442px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Контейнер для левого блока подвала */
+.footer__left__container{
+    width: 566px;
+    height: 363px;
+}
+/* Контейнер для правого блока подвала */
+.footer__right__container{
+    width: 629px;
+    height: 403px;
+}
+.ftc__text{
+    font-size: 48px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #FFFFFF;
+}
+.ftc__btn{
+    margin-top: 25px;
+    width: 262px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #E60751 2.29%, #C644F7 100%); 
+    border-radius: 30px;
+}
+.ftc__btn__text{
+    font-size: 32px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #FFFFFF;
+}
+/* Контейнер для соцсетей */
+.socmedia__container{
+    margin-top: 30px;
+    width: 100%;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+}
+.sc__container{
+    display: flex;
+}
+.socico{
+    padding-left: 57px;
+}
+/* Меню подвала */
+.f__nav__container{
+    margin-top: 68px;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+}
+.f__nav__container>a{
+    font-size: 23px;
+    color: #808080;
+    transition: background-color 0.3s;
+}
+/* Изменение цвета при наведении */
+.f__nav__container>a:hover{
+    color: #FFFFFF;
+}
+.fnc2{
+    margin-left: 40px;
+}
